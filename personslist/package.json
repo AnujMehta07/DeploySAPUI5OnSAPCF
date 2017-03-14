@@ -1,0 +1,10 @@
+{
+  "name": "personslist",
+  "scripts": {
+    "start": "node  local.js"
+  },
+  "description": "This is the sample project to deploy on CF",
+  "dependencies": {
+    "express": "4.14.0"
+  }
+}
