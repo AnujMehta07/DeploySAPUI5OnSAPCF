@@ -1,8 +1,8 @@
 ---
 applications:
-- name: personslist
+- name: personslist_<ID Number>
   memory: 256MB
   instances: 1
   timeout: 180
-  buildpack: https://github.com/cloudfoundry/nodejs-buildpack.git#v1.5.18
+  buildpack: nodejs_buildpack
   command: node local.js
