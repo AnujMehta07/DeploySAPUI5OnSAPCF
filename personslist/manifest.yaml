@@ -1,8 +1,8 @@
 ---
 applications:
-- name: personslist_<ID Number>
+- name: personslist
   memory: 256MB
   instances: 1
   timeout: 180
   buildpack: nodejs_buildpack
-  command: node local.js
+  command: node app.js

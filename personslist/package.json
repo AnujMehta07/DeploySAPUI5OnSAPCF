@@ -1,7 +1,7 @@
 {
   "name": "personslist",
   "scripts": {
-    "start": "node  local.js"
+    "start": "node  app.js"
   },
   "description": "This is the sample project to deploy on CF",
   "dependencies": {
