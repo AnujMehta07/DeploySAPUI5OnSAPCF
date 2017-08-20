@@ -1,0 +1,4 @@
+---
+applications:
+- name: personslist
+# add information about memory, instances, buildpack and command to run

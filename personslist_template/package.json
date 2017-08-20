@@ -1,0 +1,6 @@
+{
+  "name": "personslist",
+  
+  "_Add_Start_Command":" To execute intial script",
+  "_Add_Dependencies" :"Packages are required by your application in production"
+}

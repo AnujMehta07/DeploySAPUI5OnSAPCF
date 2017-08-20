@@ -21,18 +21,7 @@ sap.ui.define([
 			oPage.setCustomHeader(oBar);
 		},
 		onPress: function(oEvent){
-			var oLastName = this.getView().byId("idlastname").getValue();
-			var oFirstName = this.getView().byId("idfirstname").getValue();
-			var oData = {items: 
-                        	[{
-                            LastName: oLastName,
-                            FirstName:oFirstName 
-                        	}
-                        	]
-					};       
-	        var oModel = new sap.ui.model.json.JSONModel();
-	        oModel.setData(oData); 
-	        this.getView().setModel(oModel);
+			// 'OnPress' of 'Create' Button add logic to insert FirstName and LastName into the Table		 
 		  }
 
 	});
